@@ -1,0 +1,17 @@
+Package: SummaryMineR
+Title: Summary Data Generation
+Version: 0.1.0
+Authors@R: 
+    person("Irvin", "Ng", , "irvin.ng@ubc.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5568-169X"))
+Description: SummaryMineR calculates the different summary statistics (eg.count, mean, median, and standard deviation) of numeric values in the specified column of a data frame. In the case of non-numeric values, it would at least get counts.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    gapminder,
+    tidyverse
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
